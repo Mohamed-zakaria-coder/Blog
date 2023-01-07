@@ -1,0 +1,65 @@
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+.navbar-container{
+    padding: 10px;
+    font-size: 0.8em;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-container .navbar-content .login-img-parent{
+    position: relative;
+}
+.navbar-container .navbar-content .login-img-parent .user-info{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    z-index: 400;
+}
+.navbar-container .navbar-content .user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.navbar-content .login-img-parent .user-name, .create-post, .my-acc, .log-out{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    z-index: 500;
+    
+}
+.navbar-content .login-img-parent .user-name:hover, .create-post:hover, .my-acc:hover, .log-out:hover{
+    background-color: #ddd;
+}
+.navbar-container .navbar-content .icon{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-container .navbar-content ul{
+    /* display: none; */
+    margin-right: 20px;
+}
+.navbar-content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-container ul li{ 
+    margin-left: 4px;
+}
+.blogger-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogger-icon div{
+    margin-right: 4px;
+}

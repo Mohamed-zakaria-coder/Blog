@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+}
+.footer div{
+    margin-left: 5px;
+    margin-right: 5px;
+}

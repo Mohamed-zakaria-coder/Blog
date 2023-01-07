@@ -1,0 +1,17 @@
+.blog-container{
+
+    height: calc(100vh - 62px);
+}
+.blog{
+}
+.blog p{
+    padding: 20px;
+}
+
+.blog .img-parent{
+    width: 100%;
+}
+.blog .img-parent img{
+    width: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,31 @@
+.create-post-container{
+    height: calc(100vh - 62px);
+    
+} 
+.create-post-container .img-parent{
+    width: 200px;
+    margin: auto;
+}
+.create-post-container .img-parent img{
+    width: 100%;
+
+}
+.create-post-container form{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+.create-post-container form input, textarea{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+}
+.create-post-container form button{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
